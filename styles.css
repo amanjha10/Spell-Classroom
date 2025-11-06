@@ -1,4 +1,4 @@
-/* Reset and Base Styles */
+
 * {
     margin: 0;
     padding: 0;
@@ -117,14 +117,14 @@ body {
     width: 24px;
 }
 
-/* Main Content */
+
 .main-content {
     margin-left: var(--sidebar-width);
     min-height: 100vh;
     transition: margin-left 0.3s ease;
 }
 
-/* Topbar */
+
 .topbar {
     height: var(--topbar-height);
     background: var(--bg-card);
@@ -225,7 +225,7 @@ body {
     font-size: 14px;
 }
 
-/* Content Area */
+
 .content {
     padding: 30px;
 }
@@ -296,7 +296,7 @@ body {
     font-size: 13px;
 }
 
-/* Stats Grid */
+
 .stats-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -365,7 +365,7 @@ body {
     color: var(--text-secondary);
 }
 
-/* Cards */
+
 .card {
     background: var(--bg-card);
     border-radius: var(--radius);
@@ -397,7 +397,7 @@ body {
     text-decoration: underline;
 }
 
-/* Dashboard Row */
+
 .dashboard-row {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -414,7 +414,7 @@ body {
     height: 320px;
 }
 
-/* Filters */
+
 .filters {
     display: flex;
     gap: 12px;
@@ -450,7 +450,7 @@ body {
     font-size: 14px;
 }
 
-/* Announcements */
+
 .announcement-list {
     padding: 0;
 }
@@ -500,7 +500,7 @@ body {
     color: var(--text-light);
 }
 
-/* Events */
+
 .events-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -562,7 +562,7 @@ body {
     color: var(--primary);
 }
 
-/* Table */
+
 .table-container {
     overflow-x: auto;
 }
@@ -616,7 +616,7 @@ body {
     font-weight: 500;
 }
 
-/* Badges */
+
 .badge {
     display: inline-block;
     padding: 4px 12px;
@@ -662,7 +662,7 @@ body {
     color: var(--danger);
 }
 
-/* Progress Bar */
+
 .progress-bar {
     width: 100px;
     height: 6px;
